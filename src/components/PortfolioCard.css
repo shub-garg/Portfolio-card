@@ -1,0 +1,242 @@
+.portfolio-card {
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    width: 460px;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 20rem;
+}
+
+.profile-section {
+    background: linear-gradient(135deg, #bf467e, #764ba2);
+    border-top-left-radius: 15px; /* Apply border-radius to top-left corner */
+    border-top-right-radius: 15px; /* Apply border-radius to top-right corner */
+    padding: 10px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 0px;
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+.profile-section p a {
+    color: #ffd700;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.profile-section p {
+    margin-bottom: 20px;
+}
+
+.icon {
+    width: 70px;  /* Adjust size as needed */
+    height: 70px;  /* Adjust size as needed */
+    display: flex;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;  /* Space between icon and label */
+}
+
+.icon:hover {
+    transform: scale(1.06);
+}
+
+.second {
+    margin-right: 10px;
+}
+
+.actions {
+    display: flow;
+    justify-content: space-around;
+    background-image: url(./assets/background-card.png), linear-gradient(60deg, #31333d 0%, #45485c 100%);
+}
+
+.first {
+    padding-top:15px;
+}
+
+.action-button {
+    border: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-decoration: none;
+    transition: background 0.3s;
+    width: 100%;
+}
+
+.action-button svg {
+    margin-right: 5px;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.action-text h2 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.action-text p {
+    letter-spacing: 0rem;
+    color: rgba(255, 255, 255, 0.561);
+    width: 100%;
+    font-size: 1em;
+    line-height: 1.875;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    opacity: 1;
+    transform: none;
+}
+
+.circle-frame {
+    display: inline-block;
+    border: 5px solid #8a2464; /* Frame color and thickness */
+    border-radius: 50%;
+    padding: 5px; /* Space between the image and the frame */
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.item-section h2 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 1.5em;
+    line-height: 1.375;
+    letter-spacing: 0rem;
+    width: 100%;
+}
+
+.item-section {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+hr {
+    border: 0;
+    padding: 0;
+    position: relative;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    unicode-bidi: isolate;
+    overflow: hidden;
+}
+
+hr.style1:before {
+    width: 100%;
+    border-top: solid 2px rgba(255, 255, 255, 0.02);
+    height: 2px;
+    margin-top: -1px;
+}
+
+hr:before {
+    content: "";
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+ol, ul {
+    list-style: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+
+.buttons li {
+    max-width: 100%;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
+
+.buttons {
+    cursor: default;
+    display: flex;
+    justify-content: var(--flex-alignment);
+    letter-spacing: 0;
+    padding: 0;
+}
+
+#buttons01 .n01 {
+    color: #d7e1f5;
+}
+
+#buttons01 .n01:hover {
+    border-color: #ffffff !important;
+    color: #ffffff !important;
+}
+
+.buttons.style1 .button {
+    border: solid 3px rgba(0, 0, 0, 0.157);
+}
+
+.buttons.style1 li a {
+    display: inline-flex;
+    width: 100vw;
+    height: 4.25rem;
+    line-height: 4.25rem;
+    vertical-align: middle;
+    font-family: "Inter", sans-serif;
+    font-size: 1.25em;
+    font-weight: 700;
+    border-radius: 2rem;
+    transition: color 0.375s ease, background-color 0.375s ease, border-color 0.375s ease;
+}
+
+.buttons li a {
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.buttons.style1 li a .label {
+    direction: var(--site-language-direction);
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.inner {
+    background: linear-gradient(135deg, #bf467e, #764ba2);
+    border-bottom-left-radius: 15px; /* Apply border-radius to bottom-left corner */
+    border-bottom-right-radius: 15px; /* Apply border-radius to bottom-right corner */
+    padding: 10px;
+    max-width: 100%;
+}
