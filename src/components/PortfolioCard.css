@@ -59,6 +59,8 @@ h1 {
     display: flow;
     justify-content: space-around;
     background-image: url(./assets/background-card.png), linear-gradient(60deg, #31333d 0%, #45485c 100%);
+    border-bottom-left-radius: 15px; /* Apply border-radius to bottom-left corner */
+    border-bottom-right-radius: 15px; /* Apply border-radius to bottom-right corner */
 }
 
 .first {
