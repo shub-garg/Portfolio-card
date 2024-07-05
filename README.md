@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+![Recording2024-07-05113414-ezgif com-video-to-gif-converter](https://github.com/shub-garg/Portfolio-card/assets/52582943/1ffe86e1-15c0-48df-8e6a-ff12cad77875)
+
+
 ## Available Scripts
 
 In the project directory, you can run:
